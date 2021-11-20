@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>E-commerce product page</title>
+  <link rel="stylesheet" href="shopping.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav id="navbar">
+      <div class="hamburger">
+          <div><a href="/"></a></div>
+          <div><a href="/"></a></div>
+          <div><a href="/"></a></div>
+      </div>
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <ul>
+        <li><a href="/">Collections</a></li>
+        <li><a href="/">Men</a></li>
+        <li><a href="/">Women</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+      <div class="cart">
+          <img onclick="myfunction()" class="shop" src="images/icon-cart.svg" alt="cart">
+          <img class="avatar" src="images/image-avatar.png" alt="image-avatar">
+          <div class ="savetocart">
+            <h4>Cart</h4>
+            <hr>
+            <div class="delete">
+              <img class="shoes" src="images/image-product-1-thumbnail.jpg" alt="">
+              <h5>Fall Limited Edition Sneakers<br>$125 * 3</h5>
+              <img class = "dust" src="images/icon-delete.svg" alt="">
+            </div>
+            <button>checkout</button>
+          </div>
+      </div>
+    </nav>
+    <hr>
+  </header>
+
+  <!--header-->
+
+  
+
+
+  <section id="productimage">
+    <div class="product">
+      <div class="big">
+        <img  src="images/image-product-1.jpg" alt="image-product-1">
+      </div>
+      <div class="small">
+        <img src="images/image-product-1-thumbnail.jpg" alt="product-1">
+        <img src="images/image-product-2-thumbnail.jpg" alt="product2">
+        <img src="images/image-product-3-thumbnail.jpg" alt="product3">
+        <img src="images/image-product-4-thumbnail.jpg" alt="product4">
+      </div>
+    </div>
+    <div id="checkoutpage">
+      <h4 style="color: hsl(26, 100%, 55%);line-height: 1px;">SNEAKER COMPANY</h4>
+      <h1 style="font-size: 2.5rem; margin: 0;">Fall Limited Edition<br>Sneakers</h1>
+      <p style="line-height: 1.4;">These low-profile sneakers are your perfect casual wear<br>companion. Featuring a 
+        durable rubber outer sole, they’ll<br>withstand everything the weather can offer.</p>
+          <h3>$125.00 &nbsp;<small>50%</small></h3>
+          <h5 style="color: gray;line-height: 1px;"><s>$250.00</s></h5>
+        <div id="purchase">
+          <div class="plusminus">
+            <button><img class="minus" src="images/icon-minus.svg" alt=""></button>
+            <h1>0</h1>
+            <button ><img class = "plus" src="images/icon-plus.svg" alt=""></button>
+          </div>
+          <div class="addtocart">
+            <img src="images/icon-cart.svg" alt="">
+            <h4>Add to cart</h4>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!--productimages-->
+
+  
+  <!--checkoutpage-->
+  <script src="index.js"></script>
+
+</body>
+</html>
